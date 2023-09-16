@@ -1,0 +1,113 @@
+BasicInfo:
+  FirstName: Andrei
+  LastName: Li
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +7 999 5291298
+    - Icon: fas fa-envelope
+      Info: andreiliphd@gmail.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://andreiliphd.github.io" target="_blank">andreiliphd.github.io</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Sakhalin
+
+Profile: Developer
+
+Experience:
+  - Employer: Payrow Payment Systems LTD
+    Place: London, UK
+    Positions:
+      - Title: Team Lead Antifraud
+        Date: Feb  2021 - Feb 2023
+        Details:
+          - Name recognition and company recognition Apache Beam model
+          - Data Proccessing Engine
+        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS']
+  - Employer: reinforcementlearning.ru
+    Place: Saint Petersburg
+    Positions:    
+      - Title: CEO
+        Date: Aug 2015 - Now
+        Details:
+          - deep learning value analysis
+          - dashboard for DL performance analytics
+        Badges: ['Python', 'BDD', 'Selenium', 'OOP']
+  - Employer: LLC "Vkus Mody+"
+    Place: Saint Petersburg
+    Positions:
+      - Title: Deputy General Manager
+        Date: Nov 2011 - Apr 2015
+        Details:
+          - financial management
+          - corporate finance
+        Badges: ['Finance', 'Corporate Law', 'Restructuring']
+  - Employer: Veles Capital
+    Place: Moscow
+    Positions:
+      - Title: Head of strategic investment department
+        Date: May 2006 - May 2010
+        Details:
+          - third tiers equity trading
+          - research and development
+  - Employer: Arsagera
+    Place: Saint Petersburg
+    Positions:
+      - Title: Managing trader
+        Date: Nov 2004 - Apr 2006
+        Details:
+          - algorithmic trading
+          - research and reporting
+        Badges: ['Fair Value Analytics', 'Value Analysis', 'Value Investing']
+
+Education:
+  - Course: IE Business School
+    Place: Madrid
+    Date: Nov 2009 - Dec 2010
+    Details: MBA
+  - Course: Saint Petersburg State University of Economics and Finances
+    Place: Saint Petersburg
+    Date: Sep 2004 - July 2006
+    Details: Economist
+  - Course: Academy of Public Administration
+    Place: Saint Petersburg
+    Date: Sep 2000 - July 2003
+    Details: Specialist
+  
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - HTML (including Jinja)
+      - Javascript
+      - CSS
+      - SASS
+      - SQL
+      - C#
+      - Bash
+      - MATLAB
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Jenkins
+      - AWS
+
+Languages:
+  - Name: Russian
+    Level: Native
+  - Name: English
+    Level: C2
+  - Name: Spanish
+    Level: A1
+
+Interests:
+  - Bossa Nova
+  - Design
+  - Languages
