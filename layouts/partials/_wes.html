@@ -1,0 +1,14 @@
+{{ if .wes }}
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">{{ i18n "wes" }}</h2>
+    </div>
+    <div class="sideSection__content">
+        <ul class="wes">
+            {{ range .wes }}
+            <li class="wes__item"><a href={{ delimit ( slice "docs/" (delimit (slice . ".bmp") "")) "" }}>{{ . | safeHTML }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
