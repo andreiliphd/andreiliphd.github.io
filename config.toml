@@ -27,3 +27,9 @@ colorRightColumnIconBackground = "#e3bfb8"
 pages = 1
 # Set this param to 'true' to swap the bar positions
 swapColumns = false
+
+[module]
+[[module.mounts]]
+source = 'resources/_gen/assets/'
+target = 'assets'
+
