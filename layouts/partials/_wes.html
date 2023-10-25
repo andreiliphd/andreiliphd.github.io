@@ -6,7 +6,13 @@
     <div class="sideSection__content">
         <ul class="wes">
             {{ range .wes }}
-            <li class="wes__item"><a href={{ delimit ( slice "docs/" (delimit (slice . ".bmp") "")) "" }}>{{ . | safeHTML }}</a></li>
+                <li class="wes__item">
+                    {{ $image := resources.Get (delimit ( slice "docs/" (delimit (slice . ".jpg") "")) "" ) }}
+                    <a href="{{ $image.RelPermalink }}">
+                    {{ $image := $image.Resize "x30" }}
+                    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">                
+                    </a>
+                </li>
             {{ end }}
         </ul>
     </div>

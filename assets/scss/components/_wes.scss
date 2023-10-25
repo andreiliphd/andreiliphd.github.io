@@ -6,7 +6,7 @@
     text-align: right;
     @include avoid-break;
 
-    &__item:nth-child(n+4) {
+    &__item {
         text-align: left;
     }
 
