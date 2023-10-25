@@ -6,8 +6,12 @@
     text-align: right;
     @include avoid-break;
 
-    &__item:nth-child(n) {
+    &__item:nth-child(n+2) {
         text-align: left;
+    }
+
+    &__item:nth-child(n+2) {
+        text-align: right;
     }
 
     a, a.active {
